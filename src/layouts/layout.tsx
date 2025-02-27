@@ -9,7 +9,7 @@ const Layout = ({ children }: LayoutProps) => {
   return (
     <div className="container mx-auto px-5">
       <Navbar />
-      <div className="">
+      <div className="p-[2%]">
         {children}
       </div>
       <Footer />

@@ -9,7 +9,6 @@ function App() {
   return (
     <>
       <Layout>
-        <div>This is Children</div>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

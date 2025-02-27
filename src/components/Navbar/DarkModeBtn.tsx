@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import { RiSunFill } from "react-icons/ri"
 const DarkModeBtn = () => {
-  const [darkMode, setDarkMode] = useState<boolean>(false)
+  const [darkMode, setDarkMode] = useState<boolean>(true)
   useEffect(() => {
     if (darkMode) {
       document.documentElement.classList.add('dark')
