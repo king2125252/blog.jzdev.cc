@@ -7,13 +7,13 @@ interface LayoutProps {
 
 const Layout = ({ children }: LayoutProps) => {
   return (
-    <>
+    <div className="container mx-auto px-5">
       <Navbar />
-      <div className="bg-red-500">
+      <div className="">
         {children}
       </div>
       <Footer />
-    </>
+    </div>
   )
 }
 
