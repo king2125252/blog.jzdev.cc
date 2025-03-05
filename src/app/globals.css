@@ -5,3 +5,13 @@
 *::after {
   @apply transition-colors duration-500 ease-in-out;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p::after {
+  @apply transition-colors duration-100 ease-in-out;
+}

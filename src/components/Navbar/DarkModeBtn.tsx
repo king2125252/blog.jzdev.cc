@@ -1,3 +1,4 @@
+"use client"; // 告诉 Next.js 这是一个客户端组件，可以使用 useEffect 等 Hook
 import { useEffect, useState } from "react"
 import { RiSunFill } from "react-icons/ri"
 const DarkModeBtn = () => {
