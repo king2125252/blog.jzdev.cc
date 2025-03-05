@@ -4,10 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build",
+    "build": "next build && touch ./out/.nojekyll",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "npx gh-pages -d dist"
+    "deploy": "npx gh-pages -d out --nojekyll"
   },
   "dependencies": {
     "framer-motion": "^12.4.10",

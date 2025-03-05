@@ -17,7 +17,7 @@ export default function RootLayout({
     <html lang="zh-TW" className="dark">
       <head>
         <meta charSet="UTF-8" />
-        <link rel="icon" type="image/svg+xml" href="./src/assets/favorite.ico" />
+        <link rel="icon" type="image/svg+xml" href="./favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body className="bg-white text-black dark:bg-black dark:text-white">
