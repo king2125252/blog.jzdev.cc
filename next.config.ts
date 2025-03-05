@@ -4,10 +4,10 @@ const nextConfig: NextConfig = {
   /* config options here */
   output: "export",
   assetPrefix: "https://blog.jzdev.cc/",
-  // trailingSlash: true,
-  // images: {
-  //   loader: "imgix", // Other options include "default" and "akamai"
-  // }
+  trailingSlash: false,
+    images: {
+    unoptimized: true, // 只有前端無法使用圖片優化
+  },
 };
 
 export default nextConfig;
